@@ -17,3 +17,7 @@ test('sub should return the substraction of two numbers', function (t) {
   t.equal(3, sub(5, 2)); 
   t.end();
 });
+test('sub should return the substraction of two numbers', function (t) {
+  t.equal(7, sub(10, 3)); 
+  t.end();
+});
